@@ -19,3 +19,11 @@ class Mexc:
 
 class Kucoin:
     coins = docs.kucoin_coins
+
+
+class Bybit:
+    coins = docs.bybit_coins
+
+
+class Bitrue:
+    coins = docs.bitrue_coins
