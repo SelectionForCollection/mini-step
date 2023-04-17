@@ -199,7 +199,7 @@ async def main():
 
                 if counter_h_asks > VELOCITY_LIMIT and counter_h_bids > VELOCITY_LIMIT:  # HUOBI with
                     if height_ceiling > kucoin_bids_mean / huobi_asks_mean > low_ceiling or height_ceiling > huobi_bids_mean / kucoin_asks_mean > low_ceiling:
-                        smart_output("huobi", "kucoin", huobi_asks, huobi_bids, kucoin_asks, kucoin_bids)
+                        smart_output("huobi", "kucoin", coin, huobi_asks, huobi_bids, kucoin_asks, kucoin_bids)
 
         # print(f"binance - {len(final_binance)}\n"
         #       f"gate - {len(final_gate_dict)}\n"
